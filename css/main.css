@@ -15,4 +15,8 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+  list-style-type: none;
+
+  display: flex;
+
 }
