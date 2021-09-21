@@ -13,20 +13,13 @@ img {
   width: 100%;
 }
 
+body {
+  display: grids;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
-}
-
-header > nav > ul {
-  list-style-type: none;
-
-  display: flex;
-  justify-content: space-between;
-}
-
-main {
-  display: grids;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
 }
