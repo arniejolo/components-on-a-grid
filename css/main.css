@@ -1,4 +1,5 @@
 html {
+  line-height: 1.5;
   box-sizing: border-box;
 }
 
@@ -27,4 +28,5 @@ header > nav > ul {
 main {
   display: grids;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
 }
