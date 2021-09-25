@@ -43,6 +43,12 @@ nav {
   grid-row: 1;
 }
 
-ul {
+nav > ul > li {
   list-style-type: none;
+  color: #fff;
+}
+
+.logo {
+  grid-column: 1 / -1;
+  grid-row: 1;
 }
