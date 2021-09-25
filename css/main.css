@@ -29,7 +29,7 @@ header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
 
@@ -39,8 +39,8 @@ header {
 }
 
 nav {
-  grid-column: 1 / -1;
   grid-row: 1;
+  grid-column: 2;
 }
 
 ul {
