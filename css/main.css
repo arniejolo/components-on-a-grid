@@ -43,9 +43,8 @@ nav {
   grid-row: 1;
 }
 
-nav > ul > li {
-  list-style-type: none;
-  color: #fff;
+ul {
+  display: flex;
 }
 
 .logo {
