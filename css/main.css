@@ -21,7 +21,7 @@ body{
 body{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
 }
 
 main {
@@ -30,8 +30,8 @@ main {
 }
 
 nav {
-  grid-column: 1 / 3;
-  grid-row: 1;
+  grid-column: 1;
+  grid-row: 3;
 }
 
 
