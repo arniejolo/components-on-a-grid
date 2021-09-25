@@ -37,3 +37,12 @@ header {
   grid-column: 1 / -1;
   grid-row: 1;
 }
+
+nav {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+ul {
+  list-style-type: none;
+}
