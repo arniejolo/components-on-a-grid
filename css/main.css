@@ -43,17 +43,19 @@ nav {
   grid-column: 2;
 }
 
+
 ul {
   display: flex;
-  list-style-type: none;
 
   justify-content: space-around;
-}
-
-ul > li {
   list-style-type: none;
-
 }
+
+li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 .logo {
   grid-column: 1 / -1;
