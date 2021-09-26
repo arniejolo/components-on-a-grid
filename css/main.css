@@ -24,9 +24,9 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 
-  grid-template-areas:
-  "header header"
-  "main main";
+grid-template-areas:
+"header header"
+"main main";
   column-gap: 1rem;
   margin: 1rem;
 }
