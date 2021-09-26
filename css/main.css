@@ -45,6 +45,14 @@ nav {
 
 ul {
   display: flex;
+  list-style-type: none;
+
+  justify-content: space-around;
+}
+
+ul > li {
+  list-style-type: none;
+
 }
 
 .logo {
