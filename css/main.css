@@ -54,6 +54,8 @@ ul {
 li > a {
   color: #fff;
   text-decoration: none;
+  font-size: 2rem;
+  font-family: "Patua One";
 }
 
 
