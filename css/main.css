@@ -68,3 +68,13 @@ li > a {
   display: flex;
   align-items: flex-end;
 }
+
+figcaption {
+  font-family: "Patua One";
+  color: #30658d;
+}
+
+p {
+  font-family: Georgia;
+  color: black;
+}
