@@ -72,7 +72,7 @@ li > a {
   color: #fff;
   text-decoration: underline;
   font-size: 2rem;
-  font-family: "Patua One";
+  font-family: "Patua One", sans-serif;
 }
 
 
@@ -87,7 +87,7 @@ li > a {
 }
 
 figcaption {
-  font-family: "Patua One";
+  font-family: "Patua One", sans-serif;
   color: #30658d;
 }
 
