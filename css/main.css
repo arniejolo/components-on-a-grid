@@ -15,13 +15,15 @@ img {
 }
 
 body{
-  margin: 0;
+  margin: 1rem;
 }
 
 main{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -49,11 +51,12 @@ ul {
 
   justify-content: space-around;
   list-style-type: none;
+  padding-left: 1rem;
 }
 
 li > a {
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 2rem;
   font-family: "Patua One";
 }
