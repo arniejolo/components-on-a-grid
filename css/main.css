@@ -32,7 +32,6 @@ main{
 }
 
 figure {
-  grid-area: "main";
 
   margin: 0;
   padding: 0;
@@ -46,7 +45,6 @@ header {
   grid-template-rows: 1fr;
   margin-bottom: 1rem;
 
-  grid-area: "header"
 }
 
 .pano {
